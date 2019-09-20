@@ -102,3 +102,9 @@ https://www.geeksforgeeks.org/difference-super-java/
 2. Test failed because expected is not null.
 3. I answered it this way because getName() is overriden by using the @Override annotation.
 4. None.
+
+#### should_not_make_you_confused_2
+1. This is about deriving methods from parent class. 
+2. Test failed because expected is not null.
+3. Since method is not existing in current class, then compiler checks from parent class.
+4. None.
