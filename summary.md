@@ -178,3 +178,10 @@ we should override them both.
 2. Test failed because it is not empty.
 3. Both goodDay and sameDay are pointing to different address in memory and thus they are different objects.
 4. None.
+
+#### should_initialized_to_default_value
+1. This is about object initial values.
+https://www.javaworld.com/article/2076614/object-initialization-in-java.html
+2. Test failed because they do not have initial values.
+3. If not initialized, variables are assigned default values based on their types.
+4. None.
