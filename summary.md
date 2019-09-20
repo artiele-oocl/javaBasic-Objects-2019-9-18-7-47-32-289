@@ -37,7 +37,7 @@ assertFalse it is closed but in actuality when invoked will not automatically ca
 1. This is about familiarity with try-with-resources statement.
 https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html
 2. Test failed because logger is not empty.
-3. I corrected it that way because I know that method close() is called and added to array logger.
+3. I corrected it that way because I know that method close() is called and added to array logger. Also, methods of resources are called in the opposite order of their creation.
 4. None.
 
 #### should_get_method_name_in_stack_frame
