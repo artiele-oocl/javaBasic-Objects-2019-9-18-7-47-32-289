@@ -209,3 +209,10 @@ https://www.javaworld.com/article/2076614/object-initialization-in-java.html
 2. Test failed because it is not empty.
 3. The method that was triggered is the method that matched the number of parameter as well as the parameter type, in our case methodWithOneParameter(Object value).
 4. None.
+
+#### should_choose_the_most_specific_overload
+1. This is about method overloading.
+2. Test failed because it is not empty.
+3. The method that was triggered is the method that matched the number of parameter as well as the parameter type, in our case methodWithTwoParameters(String string, Integer integer).
+Method overloading also try to match the most specific object type.
+4. None.
