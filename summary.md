@@ -108,3 +108,10 @@ https://www.geeksforgeeks.org/difference-super-java/
 2. Test failed because expected is not null.
 3. Since method is not existing in current class, then compiler checks from parent class.
 4. None.
+
+#### should_use_instance_of_to_determine_inheritance_relationship
+1. This is about using instanceof to determine inheritance relationship.
+2. Test failed because expected is not empty.
+3. The object nested is an instance of NestedDerivedClassWithName and since NestedDerivedClassWithName is a child class of parent DerivedFromBaseClassWithName and BaseClassWithName
+then by extension, object nested is an instance of these parent classes.
+4. None.
