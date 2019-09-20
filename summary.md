@@ -84,3 +84,9 @@ https://www.geeksforgeeks.org/difference-super-java/
 2. Test failed because expected is not null.
 3. DerivedFromBaseClassForOverriding overriden the method getName() of BaseClassForOverriding.
 4. None.
+
+#### should_call_super_class_methods
+1. This is about method overriding.
+2. Test failed because expected is not null.
+3. DerivedFromBaseClassForOverriding overriden the method getName() of BaseClassForOverriding.
+4. None.
