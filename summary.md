@@ -228,3 +228,9 @@ Method overloading also try to match the most specific object type.
 2. Test failed because array is not null.
 3. The method that was triggered in this order: initializer -> superclass constructors -> current class constructor.
 4. None.
+
+#### should_get_message_of_var_length_parameters
+1. This is about unknown length of parameter handled in Java methods.
+2. Test failed because array is not empty.
+3. This is just a simple concatenation of given parameters.
+4. None.
