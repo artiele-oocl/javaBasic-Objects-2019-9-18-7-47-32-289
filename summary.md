@@ -166,3 +166,9 @@ we should override them both.
 3. Same as above.
 4. None.
 
+## ObjectTest
+#### should_point_to_the_same_object
+1. This is about object identity.
+2. Test failed because it is not empty.
+3. Both objectReference and sameReference are pointing to the address in memory and thus they are the identical objects.
+4. None.
