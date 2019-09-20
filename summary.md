@@ -216,3 +216,9 @@ https://www.javaworld.com/article/2076614/object-initialization-in-java.html
 3. The method that was triggered is the method that matched the number of parameter as well as the parameter type, in our case methodWithTwoParameters(String string, Integer integer).
 Method overloading also try to match the most specific object type.
 4. None.
+
+#### should_calling_another_constructor
+1. This is about method overloading and keyword this().
+2. Test failed because it is not null.
+3. The method that was triggered is CallingAnotherCtor() however, this constructor invoked the other constructor passing another parameter: CallingAnotherCtor(String name).
+4. None.
