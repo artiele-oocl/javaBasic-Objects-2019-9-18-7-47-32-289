@@ -96,3 +96,9 @@ https://www.geeksforgeeks.org/difference-super-java/
 2. Test failed because expected is boolean type.
 3. The value of willThrow is true because arrayWithBaseType is null.
 4. None.
+
+#### should_not_make_you_confused
+1. This is about nesting derivation from parent classes.
+2. Test failed because expected is not null.
+3. I answered it this way because getName() is overriden by using the @Override annotation.
+4. None.
