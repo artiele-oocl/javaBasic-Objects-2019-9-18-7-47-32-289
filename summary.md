@@ -32,3 +32,10 @@ https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.ht
 3. I corrected it that way because the resource declaration in the try-with-resource statement automatically calls the method close() that is why
 assertFalse it is closed but in actuality when invoked will not automatically call the method close() of interface Closeable.
 4. None.
+
+#### should_call_closing_even_if_exception_throws
+1. This is about familiarity with try-with-resources statement.
+https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html
+2. Test failed because logger is not empty.
+3. I corrected it that way because I know that method close() is called and added to array logger.
+4. None.
