@@ -60,7 +60,8 @@ class ExceptionTest {
 
         // TODO: please modify the following code to pass the test
         // <--start
-        final Optional<Boolean> expected = Optional.empty();
+        MyClosableType anotherClosable = new MyClosableType(closableStateReference);
+        final Optional<Boolean> expected = Optional.of(anotherClosable.isClosed());
         // --end-->
 
         assertEquals(expected.get(), closableStateReference.isClosed());

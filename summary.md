@@ -24,3 +24,11 @@ Please answer the following 4 questions for each unit test:
 2. Test failed because integral max value is not what is expected.
 3. I corrected it that way because I know that finally block will always be executed. 
 4. None.
+
+#### should_use_the_try_pattern
+1. This is about familiarity with try-with-resources statement.
+https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html
+2. Test failed because it is not empty.
+3. I corrected it that way because the resource declaration in the try-with-resource statement automatically calls the method close() that is why
+assertFalse it is closed but in actuality when invoked will not automatically call the method close() of interface Closeable.
+4. None.
