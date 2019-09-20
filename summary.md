@@ -191,3 +191,9 @@ https://www.javaworld.com/article/2076614/object-initialization-in-java.html
 2. Test failed because it is not empty.
 3. Original value is retained since it was not actually updated.
 4. None.
+
+#### should_pass_by_value_continued
+1. This is about passing objects by value.
+2. Test failed because it is not empty.
+3. Object sameReference is equal to objectReference.
+4. None.
