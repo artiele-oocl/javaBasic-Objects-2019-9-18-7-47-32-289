@@ -123,8 +123,16 @@ then by extension, object nested is an instance of these parent classes.
 4. None.
 
 #### should_write_perfect_equals_1
-1. This is about checking identity of objects.
+1. This is about checking values from an object and from which class they are made of.
+https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html
 2. Test failed because method is not implemented.
-3. I am aware that intelliJ is able to generate overriden equals() and hashcode() for the developer to use.
+3. I am aware that intelliJ is able to generate overriden equals() and hashcode() for the developer to use. Also, as per my readings, whenever we override either equals or hashcode,
+we should override them both.
+4. None.
+
+#### should_write_perfect_equals_2
+1. Same as above.
+2. Same as above.
+3. Same as above.
 4. None.
 
