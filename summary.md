@@ -39,3 +39,10 @@ https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.ht
 2. Test failed because logger is not empty.
 3. I corrected it that way because I know that method close() is called and added to array logger.
 4. None.
+
+#### should_get_method_name_in_stack_frame
+1. This is about getting method name in stack frame.
+https://www.baeldung.com/java-name-of-executing-method
+2. Test failed because NotImplementedException is not expected.
+3. I corrected it that way because I need to concat the class and method name where method getCurrentMethodName() was invoked.
+4. None.
