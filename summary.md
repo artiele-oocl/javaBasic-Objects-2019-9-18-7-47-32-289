@@ -203,3 +203,9 @@ https://www.javaworld.com/article/2076614/object-initialization-in-java.html
 2. Test failed because it is not empty.
 3. The object is updated because it was the object that was passed and updated inside the method tryingToUpdateState().
 4. None.
+
+#### should_choose_method_at_compile_time
+1. This is about method overloading.
+2. Test failed because it is not empty.
+3. The method that was triggered is the method that matched the number of parameter as well as the parameter type, in our case methodWithOneParameter(Object value).
+4. None.
