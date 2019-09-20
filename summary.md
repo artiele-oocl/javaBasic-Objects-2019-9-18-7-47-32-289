@@ -18,3 +18,9 @@ Please answer the following 4 questions for each unit test:
 2. Test failed because NotImplementedException is not the exception expected.
 3. I corrected it that way in order to invoke parent methods from superclass Exception.
 4. None.
+
+#### should_be_careful_of_the_order_of_finally_block
+1. This is about familiarity with how the finally block works. 
+2. Test failed because integral max value is not what is expected.
+3. I corrected it that way because I know that finally block will always be executed. 
+4. None.
