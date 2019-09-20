@@ -154,3 +154,9 @@ we should override them both.
 3. Same as above.
 4. None.
 
+#### should_write_perfect_equals_6
+1. Same as above.
+2. Same as above.
+3. Same as above.
+4. None.
+
