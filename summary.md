@@ -12,3 +12,9 @@ Please answer the following 4 questions for each unit test:
 2. Test failed because NotImplementedException is not the exception expected.
 3. I corrected it that way in order to invoke parent methods from superclass Exception.
 4. None.
+
+#### should_customize_exception_continued
+1. This is about familiarity with Exception superclass.
+2. Test failed because NotImplementedException is not the exception expected.
+3. I corrected it that way in order to invoke parent methods from superclass Exception.
+4. None.
