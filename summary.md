@@ -46,3 +46,11 @@ https://www.baeldung.com/java-name-of-executing-method
 2. Test failed because NotImplementedException is not expected.
 3. I corrected it that way because I need to concat the class and method name where method getCurrentMethodName() was invoked.
 4. None.
+
+## InheritanceTest
+#### should_be_derived_from_object_class
+1. This is about Java Class Hierarchy.
+https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html
+2. Test failed because the superclass from which all classes are derived is implicitly Object class.
+3. I corrected it that way because class Object is the "is the root of the class hierarchy".
+4. None.
