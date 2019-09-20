@@ -197,3 +197,9 @@ https://www.javaworld.com/article/2076614/object-initialization-in-java.html
 2. Test failed because it is not empty.
 3. Object sameReference is equal to objectReference.
 4. None.
+
+#### should_modify_internal_state
+1. This is about updating a created object.
+2. Test failed because it is not empty.
+3. The object is updated because it was the object that was passed and updated inside the method tryingToUpdateState().
+4. None.
