@@ -54,3 +54,11 @@ https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html
 2. Test failed because the superclass from which all classes are derived is implicitly Object class.
 3. I corrected it that way because class Object is the "is the root of the class hierarchy".
 4. None.
+
+#### should_call_super_class_constructor
+1. This is about super and this keywords used inside constructors.
+https://www.geeksforgeeks.org/difference-super-java/
+2. Test failed because array should not be empty since constructors are called.
+3. DerivedFromSuperClassWithDefaultConstructor() is called first, however, even though superclass constructor is not explicitly called, compiler automatically
+calls the no-argument constructor SuperClassWithDefaultConstructor() of the superclass SuperClassWithDefaultConstructor. This is why it is safe to always write no-arg constructors.
+4. None.
