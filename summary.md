@@ -172,3 +172,9 @@ we should override them both.
 2. Test failed because it is not empty.
 3. Both objectReference and sameReference are pointing to the address in memory and thus they are the identical objects.
 4. None.
+
+#### should_point_to_different_object
+1. This is about object identity.
+2. Test failed because it is not empty.
+3. Both goodDay and sameDay are pointing to different address in memory and thus they are different objects.
+4. None.
