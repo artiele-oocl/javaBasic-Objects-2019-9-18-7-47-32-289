@@ -61,4 +61,13 @@ https://www.geeksforgeeks.org/difference-super-java/
 2. Test failed because array should not be empty since constructors are called.
 3. DerivedFromSuperClassWithDefaultConstructor() is called first, however, even though superclass constructor is not explicitly called, compiler automatically
 calls the no-argument constructor SuperClassWithDefaultConstructor() of the superclass SuperClassWithDefaultConstructor. This is why it is safe to always write no-arg constructors.
+Note that the indices of each elements inside array expected[] is important because it shows the order of the which the constructors are called.
+4. None.
+
+#### should_call_super_class_constructor_continued
+1. This is about super and this keywords used inside constructors.
+https://www.geeksforgeeks.org/difference-super-java/
+2. Test failed because array should not be empty since constructors are called.
+3. This is the same as above test but this time DerivedFromSuperClassWithDefaultConstructor() called this() which invokes the DerivedFromSuperClassWithDefaultConstructor()
+which invokes the SuperClassWithDefaultConstructor() before adding string "DerivedFromSuperClassWithDefaultConstructor.constructor(int)" into the logger.
 4. None.
