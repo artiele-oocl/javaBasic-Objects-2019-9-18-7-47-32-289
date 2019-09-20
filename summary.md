@@ -88,5 +88,11 @@ https://www.geeksforgeeks.org/difference-super-java/
 #### should_call_super_class_methods
 1. This is about method overriding.
 2. Test failed because expected is not null.
-3. DerivedFromBaseClassForOverriding overriden the method getName() of BaseClassForOverriding.
+3. DerivedFromBaseClassForOverridingCallingSuper.getName() is invoked but used the superclass method getName() by the keyword super.getName(). 
+4. None.
+
+#### should_use_caution_when_dealing_with_array_type
+1. This is about array types and try-catch blocks.
+2. Test failed because expected is boolean type.
+3. The value of willThrow is true because arrayWithBaseType is null.
 4. None.
