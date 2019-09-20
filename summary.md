@@ -115,3 +115,9 @@ https://www.geeksforgeeks.org/difference-super-java/
 3. The object nested is an instance of NestedDerivedClassWithName and since NestedDerivedClassWithName is a child class of parent DerivedFromBaseClassWithName and BaseClassWithName
 then by extension, object nested is an instance of these parent classes.
 4. None.
+
+#### should_use_instance_of_only_in_inheritance_relationship
+1. This is about using instanceof to determine inheritance relationship.
+2. Test failed because expected is not empty.
+3. The object integer, although explicitly indicated as of type Object, is not an instanceof Long since Integer is not a child class of Long. 
+4. None.
