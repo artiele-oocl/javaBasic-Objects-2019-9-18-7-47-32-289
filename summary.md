@@ -121,3 +121,10 @@ then by extension, object nested is an instance of these parent classes.
 2. Test failed because expected is not empty.
 3. The object integer, although explicitly indicated as of type Object, is not an instanceof Long since Integer is not a child class of Long. 
 4. None.
+
+#### should_write_perfect_equals_1
+1. This is about checking identity of objects.
+2. Test failed because method is not implemented.
+3. I am aware that intelliJ is able to generate overriden equals() and hashcode() for the developer to use.
+4. None.
+
