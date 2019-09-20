@@ -71,3 +71,10 @@ https://www.geeksforgeeks.org/difference-super-java/
 3. This is the same as above test but this time DerivedFromSuperClassWithDefaultConstructor() called this() which invokes the DerivedFromSuperClassWithDefaultConstructor()
 which invokes the SuperClassWithDefaultConstructor() before adding string "DerivedFromSuperClassWithDefaultConstructor.constructor(int)" into the logger.
 4. None.
+
+#### should_call_super_class_constructor_more
+1. This is about super and this keywords used inside constructors.
+https://www.geeksforgeeks.org/difference-super-java/
+2. Test failed because array should not be empty since constructors are called.
+3. This test is just an extension of the first two tests. This time is uses the super(arg) to call the constructor of the superclass with argument.
+4. None.
