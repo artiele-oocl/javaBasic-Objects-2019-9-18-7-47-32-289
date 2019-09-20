@@ -234,3 +234,10 @@ Method overloading also try to match the most specific object type.
 2. Test failed because array is not empty.
 3. This is just a simple concatenation of given parameters.
 4. None.
+
+#### should_get_message_of_var_length_parameters_2
+1. Just an extension of the above test.
+2. Test failed because array is not empty.
+3. This is just a simple concatenation of given parameters but this time type is given which is not a problem since all objects in Java
+are derived from class Object. So, declaring new Object[] is not a problem.
+4. None.
